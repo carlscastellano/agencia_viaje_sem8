@@ -1,0 +1,77 @@
+/* Reseteo de márgenes y paddings básicos */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center; /* Centrado horizontal */
+    align-items: center;     /* Centrado vertical */
+    background-color: #f4f4f4;
+}
+
+/* Contenedor principal */
+.contenedor {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px; /* Limita el ancho máximo */
+    text-align: center; /* Centra el contenido dentro del contenedor */
+}
+
+h1 {
+    color: #4CAF50;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Espacio entre los elementos del formulario */
+}
+
+label {
+    font-weight: bold;
+}
+
+/* Estilos para los inputs */
+input {
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%; /* Hace que el input ocupe todo el ancho disponible */
+    box-sizing: border-box;
+    margin-left: auto; /* Centra el input horizontalmente */
+    margin-right: auto; /* Centra el input horizontalmente */
+}
+
+button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%; /* El botón ocupa todo el ancho disponible */
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+h2 {
+    margin-top: 30px;
+    font-size: 1.2em;
+    color: #333;
+}
+
+#resultados {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
