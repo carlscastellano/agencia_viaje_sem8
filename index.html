@@ -1,12 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Agencia de viajes</title>
+    <title>Buscar Vuelos</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Vuelos Baratos</h1>
-    <p>Estamos realizando pruebas, se borraron dos archivos</p>
+    <div class="contenedor">
+        <h1>Buscar Vuelos</h1>
+        <form id="searchForm">
+            <label for="origen">Origen:</label>
+            <input type="text" id="origen" name="origen" required><br><br>
+            <label for="destino">Destino:</label>
+            <input type="text" id="destino" name="destino" required><br><br>
+            <label for="fecha_salida">Fecha de Salida:</label>
+            <input type="date" id="fecha_salida" name="fecha_salida" required><br><br>
+            <label for="fecha_regreso">Fecha de Regreso:</label>
+            <input type="date" id="fecha_regreso" name="fecha_regreso" required><br><br>
+            <button type="submit">Buscar Vuelos</button>
+        </form>
+        <h2>Resultados de la búsqueda:</h2>
+        <div id="resultados"></div>
+    </div>
+    <script src="scripts.js"></script>
 </body>
 </html>
